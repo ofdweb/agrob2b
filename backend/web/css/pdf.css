@@ -1,0 +1,138 @@
+#pdf .header{
+    text-align: center;
+}
+
+#pdf {font-family: Arial;}
+
+#pdf .tableTop{
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+#pdf table td{
+    border-color: transparent;
+    padding: 3px;
+    vertical-align: top;
+}
+
+#pdf table td.subTd{padding: 0;}
+
+table{
+    border-spacing:0;
+    width: 100%;
+}
+
+#pdf .subTableTop{width: 100%;}
+
+
+#pdf .subTableTop td{width: 220px;}
+
+#pdf .tableTop .lineRTd,
+#pdf .tableTop .lineR td{border-right: 1px solid black;}
+
+#pdf .tableTop .lineBTd,
+#pdf .tableTop .lineB td{border-bottom: 1px solid black;}
+
+#pdf .tableTop .lineL{border-left: 1px solid black;}
+
+#pdf .tableTop .lineT td{border-top: 1px solid black;}
+
+#pdf .totalAllLetter{
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+#pdf .schet{
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+#pdf .tableButton,
+#pdf .tableMidle tr{margin-top: 20px;}
+
+#pdf .tableButton tbody td{border: 1px solid black;}
+#pdf .tableButton th{
+    border: 1px solid black;
+    border-bottom: 0;
+}
+
+#pdf .totalAllLetter:first-letter{font-size: 200%;}
+
+#pdf .totalPrice, #pdf_2 .totalPrice{text-align: right;margin-top: 20px;font-weight: bold;}
+#pdf .totalPrice span,#pdf_2 .totalPrice span{width: 200px;display: table-cell;}
+
+
+#pdf .tableUser{padding: 25px 0 10px 0;}
+#pdf .tableUser td{width: 50%;}
+#pdf .tableUser .user{text-align: right;width: 200px;}
+
+#pdf .tableUser .user{border-bottom: 0 solid black;}
+
+#pdf .sizeSmall{font-size: 11px;}
+#pdf .sizeMidle,
+#pdf table{font-size: 13px;}
+#pdf .sizeLarge{font-size: 16px;}
+
+#print{display: inline-block;margin:0 0 0 220px;}
+#pdf .tableUser{
+    background:url("../images/pdfFooter.jpg") no-repeat center center ;
+}
+
+#pdf_1,#pdf_1 table{font-size: 12px;}
+
+#pdf_1 #header{margin-top: 10px;}
+
+#pdf_1 #header b{font-size: 16px;}
+
+#pdf_1 .bottomTable{font-size: 12px;}
+
+#pdf_2{font-size: 14px;}
+#pdf_2 #header{
+    float: right;
+    display: inline-block;
+    width: 300px;
+}
+
+.clearboth{clear: both;}
+
+#pdf_2 #title{
+    text-align: center;
+    font-size: 18px;
+    margin: 50px 0;
+}
+
+#pdf_2 .underline{text-decoration: underline;}
+
+#pdf_2 .table{margin-bottom: 20px;}
+
+#pdf_2 .price{margin: 10px 0;}
+#pdf_2 .price td{
+    padding: 5px;
+    border-bottom:1px solid black;
+    border-left:1px solid black;
+    
+}
+
+#pdf_2 .price td.last{border-right:1px solid black;text-align: right;}
+
+#pdf_2 .price .header td{
+    text-align: center;
+    border-top:1px solid black;
+}
+
+#pdf_2 .price td.noBorder{border:none!important;text-align: right;}
+
+#pdf_2 #sobolev{
+    width: 150px;
+    text-align: center;
+    float: right;
+    display: block;
+    margin-top: 50px;
+}
+
+#pdf_2 #sobolev .name{
+    width: 100%;
+    border-top: 1px solid black
+}

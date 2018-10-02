@@ -1,0 +1,27 @@
+.dropdown-toggle{
+    padding: 5px 3px;
+    line-height: 0;
+    margin-right: 5px;
+}
+
+#DictionaryCategory{max-width: 500px;}
+#DictionaryCategory ul{padding-left: 30px;}
+#DictionaryCategory li{
+    list-style: none;
+}
+
+#DictionaryCategory .actions{text-align: right;}
+#DictionaryCategory .actions a{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#DictionaryCategory .title{
+    display: table;
+    width: 100%;
+}
+
+#DictionaryCategory .title>*{
+      display: table-cell;
+      vertical-align: middle;
+}

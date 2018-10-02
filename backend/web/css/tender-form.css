@@ -1,0 +1,77 @@
+.input-cell {
+	width:500px;
+}
+.width-50-per {width:50% !important;}
+.width-45-per {width:45% !important;}
+.width-20-per {width:20% !important;}
+.display-inline {display:inline !important;}
+
+.tree {
+	#width: 100%;
+}
+.tree li {
+	list-style-type:none;
+	position:relative;
+	padding: 4px;
+}
+.tree li:hover {
+	background-color: #f6f4f4;
+}
+
+.tree label:hover {
+	text-decoration: underline;
+}
+.tree label {
+	padding: 0 0 0 5px;
+}
+
+
+.loader {
+	#width: 15px;
+	height: 15px;
+	background-image: url(/images/ajax-loader.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.fined {
+	background-color: #46b8da; 
+	color: white;
+}
+
+.red_text {
+	color: red;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #000; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
+
+#boxAddresses label {
+	width: 100%;
+}
+
+.table-form-row>td{
+	padding-left: 25px !Important;
+	padding-right: 25px !Important;
+}
+
+.cat-box2 div:hover {
+	background: url('/images/icons/cat-prod-hover.png') no-repeat; 
+	background-size: 95px 95px; 
+}
+
+.cat-box div:hover {
+	background: url('/images/icons/cat-prod-hover.png') no-repeat; 
+	background-size: 115px 115px; 
+}
+
+.datepicker input {
+	width: 230px;
+}
+
+.select2-search__field{width: 100%!important;}

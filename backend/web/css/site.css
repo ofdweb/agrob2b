@@ -1,0 +1,151 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.detail-view tr>th{width: 300px!important;}
+.treeview.active .treeview-menu{display: block!important; }
+
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > p{word-wrap: break-word!important;}
+
+a.col-lg-3:hover{text-decoration: none;}
+
+.division .child{display: none;padding-bottom: 20px;}
+.division li{list-style: none;}
+.division .edit{margin-left: 10px;}
+.division .btn-default{
+    padding: 0px 3px;
+    font-size: 10px;
+}
+.transRaw {min-height: 20px;}
+.transRaw .form input{width: 100%;}
+.transRaw .form{display: none;}
+
+#translForm{width: 100%;display: table;}
+#translForm>div{display: table-cell;vertical-align: middle;padding: 0 15px;}
+
+#translFormButton form{display: inline-block;}
+
+.transl{margin: 10px 0;display: block;}
+.transInsert{display: none;}
+
+#translForm{display: table;width: 100%;}
+#translForm>div{display: table-cell;vertical-align: middle;text-align: center;}
+
+#importExcel{display: inline-block;}
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+    width:inherit; /* Or auto */
+    padding:0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+}
+
+#billingCompany td .date{width: 200px;}
+
+.filters #company-id{min-width: 50px;}
+
+.modal-dialog {
+    z-index: 100000;
+}
+.modal-backdrop.in{display: none;}
+
+.row-hover:hover {
+	background-color: #F2F2F2;
+}
+
+.unvictoryForm{display: none;}
+
+table.victory td{padding: 5px;}

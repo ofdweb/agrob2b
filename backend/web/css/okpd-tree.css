@@ -1,0 +1,33 @@
+
+.tree {
+	#width: 100%;
+}
+.tree li {
+	list-style-type:none;
+	position:relative;
+	padding: 4px;
+}
+.tree li:hover {
+	background-color: #f6f4f4;
+}
+
+.tree label:hover {
+	text-decoration: underline;
+}
+.tree label {
+	padding: 0 0 0 5px;
+}
+
+
+.loader {
+	width: 15px;
+	height: 15px;
+	background-image: url(/images/ajax-loader.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.fined {
+	background-color: #46b8da; 
+	color: white;
+}
