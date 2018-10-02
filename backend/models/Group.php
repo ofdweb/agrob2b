@@ -54,19 +54,19 @@ class Group extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'title' => 'Название',
-            'buttonSell' => 'Текст кнопки Продать',
-            'buttonBuy' => 'Текст кнопки Купить',
-            'dateAdd' => 'Добавлено',
-            'active' => 'Активная',
-            'imageId'=>'Изображение',
-            'file'=>'Изображение',
-            'visibleOkpd'=>'Отображение в списке выбора при ОКПД', 
-            'visibleSearch'=>'Отображение в поиске',  
-            'visibleConstructor'=>'Отображение в конструкторе заявки',  
-            'visibleWidgets'=>'Просмотр доп. опций в карточке заявки',  
-            'visibleReport'=>'Просмотр отчетов',            
-            'visibleMenu'=>'Отображение в шапке',            
+            'title' => Yii::t('app', 'Название'),
+            'buttonSell' => Yii::t('app', 'Текст кнопки Продать'),
+            'buttonBuy' => Yii::t('app', 'Текст кнопки Купить'),
+            'dateAdd' => Yii::t('app', 'Добавлено'),
+            'active' => Yii::t('app', 'Активная'),
+            'imageId'=>Yii::t('app', 'Изображение'),
+            'file'=>Yii::t('app', 'Изображение'),
+            'visibleOkpd'=>Yii::t('app', 'Отображение в списке выбора при ОКПД'),
+            'visibleSearch'=>Yii::t('app', 'Отображение в поиске'),
+            'visibleConstructor'=>Yii::t('app', 'Отображение в конструкторе заявки'),
+            'visibleWidgets'=>Yii::t('app', 'Просмотр доп. опций в карточке заявки'),
+            'visibleReport'=>Yii::t('app', 'Просмотр отчетов'),
+            'visibleMenu'=>Yii::t('app', 'Отображение в шапке'),
         ];
     }
     
